@@ -14,4 +14,4 @@ A versão 1.0 foi feita apenas com **HTML e CSS**. Já esta nova versão traz **
 ## Link do projeto no ar
 
 Acesse o portfólio online em:  
-[https://portfolio‑mayara‑2‑0.vercel.app/](https://portfolio-mayara-2-0.vercel.app/)
+[https://portfolio-mayara-vs2-0.vercel.app/](https://portfolio-mayara-vs2-0.vercel.app/)
