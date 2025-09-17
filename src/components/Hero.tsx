@@ -48,7 +48,7 @@ const Hero: React.FC<HeroProps> = ({ isDarkMode }) => {
           {/* Botões */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
             <button
-              onClick={() => scrollToSection('projects')}
+              onClick={() => scrollToSection('projetos')}
               className={`inline-flex items-center px-8 py-3 rounded-lg font-semibold text-white bg-[#0F96AE] hover:bg-[#0d7a94] transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl`}
             >
               <FolderOpen className="mr-2" size={20} />
