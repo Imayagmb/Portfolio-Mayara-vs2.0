@@ -8,6 +8,20 @@ interface ExperienciaProps {
 const Experiencia: React.FC<ExperienciaProps> = ({ isDarkMode }) => {
   const experiencias = [
     {
+      company: 'Generation Brasil',
+      position: 'Bootcamp Full Stack JavaScript',
+      period: 'jan/2026 – atual',
+      location: 'Remoto',
+      description: [
+        'Desenvolvimento FullStack',
+        'Git e GitHub para controle de versão',
+        'Projetos práticos com tecnologias como JavaScript, TypeScript, React, Node.js',
+        'Participação em projeto colaborativo com metodologia ágil',
+        'Trilha de aprendizagem Canvas'
+      ],
+      isActive: true
+    },
+    {
       company: 'Casulo Tecnológico',
       position: 'Projeto em React',
       period: 'jan/2025 – atual',
@@ -20,19 +34,6 @@ const Experiencia: React.FC<ExperienciaProps> = ({ isDarkMode }) => {
       isActive: true
     },
     {
-      company: 'Compass UOL',
-      position: 'Estágio em AWS Cloud Data Engineering',
-      period: 'dez/2024 – fev/2025',
-      location: 'Remoto',
-      description: [
-        'ETL e análise de dados com Python (Pandas, Numpy)',
-        'SQL avançado',
-        'Modelagem de dados e uso de serviços AWS como Lambda',
-        'Trilha de aprendizagem Udemy'
-      ],
-      isActive: false
-    },
-    {
       company: 'UNISUAM',
       position: 'Estágio em Sistemas da Informação',
       period: 'nov/2024 – jul/2025',
@@ -42,6 +43,19 @@ const Experiencia: React.FC<ExperienciaProps> = ({ isDarkMode }) => {
         'Integração com Angular',
         'Testes de interface e correção de bugs',
         'Consultas SQL e modelagem de banco de dados'
+      ],
+      isActive: false
+    },
+    {
+      company: 'Compass UOL',
+      position: 'Estágio em AWS Cloud Data Engineering',
+      period: 'dez/2024 – fev/2025',
+      location: 'Remoto',
+      description: [
+        'ETL e análise de dados com Python (Pandas, Numpy)',
+        'SQL avançado',
+        'Modelagem de dados e uso de serviços AWS como Lambda',
+        'Trilha de aprendizagem Udemy'
       ],
       isActive: false
     }
