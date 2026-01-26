@@ -72,7 +72,7 @@ const Contato: React.FC<ContatoProps> = ({ isDarkMode }) => {
 
                 {/* LinkedIn */}
                 <a
-                  href="https://www.linkedin.com/in/maya-monteiro/"
+                  href="https://www.linkedin.com/in/imayagmb/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className={`flex items-center p-4 rounded-lg transition-all duration-300 hover:scale-105 ${
@@ -93,7 +93,7 @@ const Contato: React.FC<ContatoProps> = ({ isDarkMode }) => {
                     <p className={`text-sm ${
                       isDarkMode ? 'text-gray-400' : 'text-gray-600'
                     }`}>
-                      /in/maya-monteiro/
+                      /in/imayagmb/
                     </p>
                   </div>
                 </a>
