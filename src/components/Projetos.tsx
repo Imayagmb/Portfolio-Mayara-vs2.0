@@ -72,12 +72,12 @@ const Projetos: React.FC<ProjetosProps> = ({ isDarkMode }) => {
       image: 'https://i.postimg.cc/J0Hyf8Bg/vidaplena.png'
     },
     {
-      title: 'Landing Page –  Coca-Cola',
-      description: 'Uma das primeiras páginas que desenvolvi no início da minha jornada com HTML e CSS. O projeto tem como objetivo apresentar a marca Coca-Cola de forma visualmente impactante, com destaque para a tipografia, cores e imagens. Embora funcional no desktop, esta versão não é responsiva e carece de ajustes para adaptação em diferentes dispositivos. Foi um exercício importante para treinar estruturação de layout, uso de cores e organização de conteúdo.',
-      technologies: ['HTML', 'CSS'],
-      demoUrl: 'https://landing-page-coca-cola-alpha.vercel.app/#',
-      githubUrl: 'https://github.com/Imayagmb/Landing-Page-Coca-Cola',
-      image: 'https://i.postimg.cc/pTGqccV1/Landing-page-Coca-cola.png'
+      title: 'Pokedex Lite',
+      description: 'Aplicação React + TypeScript moderna para explorar o mundo dos Pokémon, utilizando a PokéAPI para fornecer informações detalhadas sobre cada criatura, com busca por nome do Pokémon e por grupo ao qual pertence.',
+      technologies: ['HTML', 'CSS', 'REACT', 'TYPESCRIPT', 'API', 'VITE', 'TAILWIND CSS', 'LUCIDE REACT'],
+      demoUrl: 'https://pokedex-lite-sage.vercel.app/',
+      githubUrl: 'https://github.com/Imayagmb/pokedex-lite?tab=readme-ov-file',
+      image: 'https://i.postimg.cc/PJBFtWc1/Podekex-Lite.png'
     }
   ];
 
