@@ -9,7 +9,7 @@ const Experiencia: React.FC<ExperienciaProps> = ({ isDarkMode }) => {
   const experiencias = [
     {
       company: "Generation Brasil",
-      position: "Desenvolvedora Full Stack JavaScript (Bootcamp- Aluno)",
+      position: "Desenvolvedora FullStack JavaScript — Bootcamp",
       period: "jan/2026 – atual",
       location: "Remoto",
       description: [
