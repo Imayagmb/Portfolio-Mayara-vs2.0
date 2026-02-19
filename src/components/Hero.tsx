@@ -56,7 +56,7 @@ const Hero: React.FC<HeroProps> = ({ isDarkMode }) => {
             </button>
             
             <a
-              href="https://www.linkedin.com/in/maya-monteiro/"
+              href="https://www.linkedin.com/in/imayagmb/"
               target="_blank"
               rel="noopener noreferrer"
               className={`inline-flex items-center px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl ${
